@@ -95,7 +95,7 @@ I will put them up once I am done
 
 ## License
 
-MIT License. Open for academic and non-commercial use.
+MIT License.
 
 ## Acknowledgements
 
