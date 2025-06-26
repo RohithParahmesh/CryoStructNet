@@ -8,7 +8,7 @@
 
 ---
 
-**View2Volume** is a deep learning framework for reconstructing high fidelity 3D protein density volumes directly from unaligned 2D Cryo-Electron Microscopy (Cryo-EM) projections. Inspired by Neural Radiance Fields (NeRF), The system learns to predict projection poses, fuse multi view image features, and generate full 3D structures  all without traditional alignment or averaging steps.
+**CryoStructNet** is a deep learning framework for reconstructing high fidelity 3D protein density volumes directly from unaligned 2D Cryo-Electron Microscopy (Cryo-EM) projections. Inspired by Neural Radiance Fields (NeRF), The system learns to predict projection poses, fuse multi view image features, and generate full 3D structures  all without traditional alignment or averaging steps.
 
 ## Highlights
 
@@ -22,9 +22,8 @@
 ```bash
 git clone https://github.comRohithParahmesh/CryoStructNet.git
 cd CryoStructNet
-conda create -n cryo3d python=3.10
-conda activate cryo3d
-pip install -r requirements.txt
+conda env create -f environment.yaml
+conda activate CryoStructNet
 ```
 ## Data
 
