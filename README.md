@@ -28,7 +28,19 @@ pip install -r requirements.txt
 ```
 ## Data
 
-- We use datasets from:
+We use datasets from:
 - EMPIAR – raw Cryo-EM images (e.g. EMPIAR-10061)
 - EMDB – corresponding 3D density volumes
 - Simulated projections from known 3D volumes using ASTRA Toolbox
+
+## Training 
+```bash
+python training/train.py --config training/config.yaml
+```
+
+## Evaluation
+-Voxel-wise MSE
+-SSIM between prediction and ground truth
+-3D correlation coefficient
+-Fourier Shell Correlation (FSC)
+-Visual inspection using ChimeraX or PyMOL
