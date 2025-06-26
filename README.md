@@ -39,8 +39,8 @@ python training/train.py --config training/config.yaml
 ```
 
 ## Evaluation
--Voxel wise MSE
--SSIM between prediction and ground truth
--3D correlation coefficient
--Fourier Shell Correlation (FSC)
--Visual inspection using ChimeraX or PyMOL
+- Voxel wise MSE
+- SSIM between prediction and ground truth
+- 3D correlation coefficient
+- Fourier Shell Correlation (FSC)
+- Visual inspection using ChimeraX or PyMOL
