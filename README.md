@@ -25,6 +25,8 @@ cd CryoStructNet
 conda env create -f environment.yaml
 conda activate CryoStructNet
 ```
+Note: If you plan to use simulated projection data, you may need to manually install ASTRA Toolbox for tomographic projection support.
+
 ## Data
 
 We use datasets from:
