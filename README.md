@@ -8,11 +8,11 @@
 
 ---
 
-**View2Volume** is a deep learning framework for reconstructing high-fidelity 3D protein density volumes directly from unaligned 2D Cryo-Electron Microscopy (Cryo-EM) projections. Inspired by Neural Radiance Fields (NeRF), our system learns to predict projection poses, fuse multi-view image features, and generate full 3D structures — all without traditional alignment or averaging steps.
+**View2Volume** is a deep learning framework for reconstructing high fidelity 3D protein density volumes directly from unaligned 2D Cryo-Electron Microscopy (Cryo-EM) projections. Inspired by Neural Radiance Fields (NeRF), The system learns to predict projection poses, fuse multi view image features, and generate full 3D structures  all without traditional alignment or averaging steps.
 
 ## Highlights
 
-- View-conditioned volume prediction using NeRF-style positional encodings  
+- View-conditioned volume prediction using NeRF style positional encodings  
 - Pose estimation network to infer projection orientation from raw images  
 - Uncertainty-aware volume output with confidence maps  
 - Trained on real Cryo-EM datasets (EMPIAR/EMDB) and synthetic simulations  
@@ -39,7 +39,7 @@ python training/train.py --config training/config.yaml
 ```
 
 ## Evaluation
--Voxel-wise MSE
+-Voxel wise MSE
 -SSIM between prediction and ground truth
 -3D correlation coefficient
 -Fourier Shell Correlation (FSC)
