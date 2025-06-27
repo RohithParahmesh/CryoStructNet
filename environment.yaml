@@ -1,0 +1,27 @@
+name: cryo
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas
+  - matplotlib
+  - tqdm
+  - pip
+  - pytorch
+  - torchvision
+  - scikit-image
+  - SimpleITK
+  - opencv
+  - einops
+  - kornia
+  - seaborn
+  - plotly
+  - pip:
+      - mrcfile
+      - liegroups
+      - pyquaternion
+      - nibabel
