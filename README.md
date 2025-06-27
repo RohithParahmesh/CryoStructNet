@@ -35,7 +35,7 @@ CryoStructNet/
 ### Using Conda (recommended)
 
 ```bash
-git clone https://github.com/yourusername/CryoStructNet.git
+git clone https://github.com/RohithParahmesh/CryoStructNet.git
 cd CryoStructNet
 conda env create -f environment.yaml
 conda activate cryostructnet
