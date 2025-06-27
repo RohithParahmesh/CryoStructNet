@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+pandas
+matplotlib
+tqdm
+
+# Image I/O and manipulation
+mrcfile              # To read/write EM .mrc files
+scikit-image         # Image resizing, filtering, etc.
+SimpleITK            # Medical-style 3D volume processing
+opencv-python        # 2D projection output (if saving images)
+
+# Deep learning
+torch>=2.0
+torchvision
+einops
+kornia
+
+# Optional: for 3D projections / SO(3) pose sampling
+liegroups            # For rotation matrices, SO(3) math
+pyquaternion         # (alternative to Euler angles)
+nibabel              # Optional, for other medical formats
+
+# Visualization
+seaborn
+plotly
+
+# Optional (advanced): Simulation-based projection
+# astra-toolbox      # Uncomment if using ASTRA
